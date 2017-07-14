@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read secured email</title>
+  <link rel="shortcut icon" href="http://www.cryptzone.com/src/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link href="/bower_components/material-design-icons/sprites/css-sprite/sprite-action-black.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        Cryptzone SEP
+      </a>
+      <div class="pull-right">
+        <a href="#" class="navbar-link">pelle.nilsson@gmail.com</a>
+        <button type="button" class="btn btn-default navbar-btn">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Read Secured Email</h1>
+    <p>to: <strong>pelle.nilsson@gmail.com</strong></p>
+
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="password" class="col-sm-1 control-label">Password</label>
+        <div class="col-sm-11">
+          <input type="password" class="form-control" placeholder="Enter the password you created when you signed up..." />
+        </div>
+      </div>
+      <button class="btn btn-primary">Continue</button>
+    </form>
+
+    <hr />
+
+    <ul class="list-unstyled">
+      <li>
+        <a>I have forgotten my password</a>
+      </li>
+      <li>
+        <a>I would like to authenticate using a shared secret</a>
+      </li>
+      <li>
+        <a>I would like to authenticate as someone else</a>
+      </li>
+    </ul>
+
+    <h3><span class="glyphicon glyphicon-question-sign"></span> What is this?</h3>
+    <div class="alert alert-info">
+      To ensure that the recipient of this secured email is the person authorized to open the email, the sender demands recipient authentication. To authenticate, enter the password you created when you signed up.
+    </div>
+
+    <h3><span class="glyphicon glyphicon-question-sign"></span> Help</h3>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="alert alert-info">
+          <h5>What information should I input?</h5>
+          <p>You have received a secured email. You can view the secured email by using the password that you used to register your account.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="alert alert-warning">
+          <h5>I have forgotten my password</h5>
+          <p>You can recover your password by clicking the "I have forgotten my password" link. You will receive an email with instructions.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3>Example of iFramed content</h3>
+    <iframe src="iframe-content.html" height="500px" class="row col-md-12"></iframe>
+
+  </div>
+
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+</body>
+</html>

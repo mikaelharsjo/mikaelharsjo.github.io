@@ -1,0 +1,24 @@
+{
+  "name": "secured_email",
+  "version": "1.0.0",
+  "authors": [
+    "Mikael Härsjö <mikael.harsjo@cryptzone.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-icons": "~1.0.0",
+    "bootstrap-material-design": "~0.1.5",
+    "bootstrap": "~3.3.0",
+    "jquery": "~2.1.1",
+    "zurb-foundation-bower": "*"
+  }
+}

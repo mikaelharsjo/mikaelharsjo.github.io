@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read secured email</title>
+  <link rel="shortcut icon" href="http://www.cryptzone.com/src/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/bower_components/zurb-foundation-bower/css/normalize.css">
+  <link rel="stylesheet" href="/bower_components/zurb-foundation-bower/css/foundation.css">
+
+  <link href="/bower_components/material-design-icons/sprites/css-sprite/sprite-action-black.css" rel="stylesheet">
+
+  <script src="/bower_components/zurb-foundation-bower/js/vendor/modernizr.js"></script>
+
+  <style type="text/css">
+    h3 > .icon {
+      margin-top: 5px;
+      margin-right: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  </style>
+
+</head>
+<body>
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">Cryptzone SEP</a></h1>
+      </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li><a>pelle.nilsson@gmail.com</a></li>
+        <li>
+          <a class="button" href="#">Logout</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+  <div class="row">
+    <h1>Read Secured Email</h1>
+    <p>to: <strong>pelle.nilsson@gmail.com</strong></p>
+
+    <form>
+      <div class="large-12 columns">
+        <div class="large-1 columns">
+          <label for="right-label" class="right inline">Password</label>
+        </div>
+        <div class="large-11 columns">
+          <input type="password" placeholder="Enter the password you created when you signed up..." />
+        </div>
+      </div>
+      <button>Continue</button>
+    </form>
+
+    <ul class="large-12 columns">
+      <li>
+        <a>I have forgotten my password</a>
+      </li>
+      <li>
+        <a>I would like to authenticate using a shared secret</a>
+      </li>
+      <li>
+        <a>I would like to authenticate as someone else</a>
+      </li>
+    </ul>
+
+    <h3><div class="icon icon-ic_help_black_24dp left"></div> What is this?</h3>
+    <div class="panel callout">
+      To ensure that the recipient of this secured email is the person authorized to open the email, the sender demands recipient authentication. To authenticate, enter the password you created when you signed up.
+    </div>
+
+    <h3><div class="icon icon-ic_question_answer_black_24dp left"></div> Help</h3>
+
+    <div class="large-6 columns">
+      <div class="panel">
+        <h5>What information should I input?</h5>
+        <p>You have received a secured email. You can view the secured email by using the password that you used to register your account.</p>
+      </div>
+    </div>
+
+    <div class="large-6 columns">
+      <div class="panel callout">
+        <h5>I have forgotten my password</h5>
+        <p>You can recover your password by clicking the "I have forgotten my password" link. You will receive an email with instructions.</p>
+      </div>
+    </div>
+
+    <h3>Example of iFramed content</h3>
+    <iframe src="iframe-content.html" height="500px" class="large-12 columns"></iframe>
+
+  </div>
+
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/zurb-foundation-bower/js/foundation.min.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
+</body>
+</html>
